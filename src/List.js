@@ -1,3 +1,4 @@
+
 const List = (props) => {
   const catagory=props.catagory;
   const newitems=props.items;
@@ -10,8 +11,8 @@ const List = (props) => {
   return( <ol>{listItems}</ol>) */
   const fruitsList=newitems.map(item => <li key={item.id}>{item.name}: &nbsp; <b>{item.calories}</b></li>)
   return(<>
-  <h3>{catagory}</h3>
-  <ol>{fruitsList}</ol>
+  <h3 className="list-catagory">{catagory}</h3>
+  <ol className="list-items">{fruitsList}</ol>
   </>);
 }
 export default List

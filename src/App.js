@@ -1,4 +1,6 @@
-import List from './List.js'
+//import List from './List.js'
+import TodoList from './TodoList.js'
+
 function App() {
   const fruits=[{id:1,name:"coconut",calories:55},
     {id:2,name:"apple",calories:222},
@@ -11,10 +13,11 @@ function App() {
 
 
   return (<>
-   {/* {fruits.length > 0 ? <List items={fruits} catagory="Fruits"/>: null}
+   {/*choose this {fruits.length > 0 ? <List items={fruits} catagory="Fruits"/>: null}
    {vegetables.length > 0 ? <List items={vegetables} catagory="Vegetables"/>  : null} */}
-   {fruits.length > 0 && <List items={fruits} catagory="Fruits"/>}
-   {vegetables.length > 0 && <List items={vegetables} catagory="Vagetables"/>}
+  {/*or this  {fruits.length > 0 && <List items={fruits} catagory="Fruits"/>}
+   {vegetables.length > 0 && <List items={vegetables} catagory="Vagetables"/>} */}
+   <TodoList/>
   </>
   );
 }
