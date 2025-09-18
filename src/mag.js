@@ -1,6 +1,6 @@
 import React from 'react'
 
-function hgggggj() {
+function mag() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function hgggggj() {
   )
 }
 
-export default hgggggj
+export default mag
