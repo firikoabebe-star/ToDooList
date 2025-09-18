@@ -4,7 +4,7 @@ function UseEffect() {
   const [count, setCount] = useState(0);
 
  useEffect(() => {
-    document.title= `🔥 ${count}`
+    document.title= `ycgjjjjjjjjjjjj ${count}`
   } , [count]);
   function addCount() {
     setCount(c => c + 1);
